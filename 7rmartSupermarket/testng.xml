@@ -5,11 +5,12 @@
   <parameter name="username" value="priyamohan"></parameter>
 	<parameter name="password" value="priya@123"></parameter>
 		<classes>
-			<class name="Testcases.NewUserTest">
+			<class name="testcases.NewUserTest">
 				<methods>
 					<include name="loginNewUser"></include>
 				</methods>
 			</class>
+			
 		</classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

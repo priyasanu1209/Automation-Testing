@@ -2,24 +2,41 @@
 <testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-24T15:24:19 IST" name="Default suite" finished-at="2025-10-24T15:24:29 IST" duration-ms="9802">
+  <suite started-at="2025-10-31T15:33:26 IST" name="Suite" finished-at="2025-10-31T15:33:31 IST" duration-ms="4347">
     <groups>
+      <group name="smoke">
+        <method signature="LoginPageTest.validUsernamePassword()[pri:0, instance:testcases.LoginPageTest@6f03482]" name="validUsernamePassword" class="testcases.LoginPageTest"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2025-10-24T15:24:19 IST" name="Default test" finished-at="2025-10-24T15:24:29 IST" duration-ms="9802">
-      <class name="Testcases.LoginPageTest">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Testcases.LoginPageTest@77c2494c]" started-at="2025-10-24T15:24:19 IST" name="beforeMethod" finished-at="2025-10-24T15:24:26 IST" duration-ms="6657" status="PASS">
+    <test started-at="2025-10-31T15:33:26 IST" name="grouping test" finished-at="2025-10-31T15:33:31 IST" duration-ms="4347">
+      <class name="testcases.LoginPageTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testcases.LoginPageTest@6f03482]" started-at="2025-10-31T15:33:26 IST" name="beforeMethod" finished-at="2025-10-31T15:33:30 IST" duration-ms="3273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="incorretUsernamePassword()[pri:0, instance:Testcases.LoginPageTest@77c2494c]" started-at="2025-10-24T15:24:26 IST" name="incorretUsernamePassword" finished-at="2025-10-24T15:24:29 IST" duration-ms="3007" status="PASS">
+        <test-method signature="validUsernamePassword()[pri:0, instance:testcases.LoginPageTest@6f03482]" started-at="2025-10-31T15:33:30 IST" name="validUsernamePassword" finished-at="2025-10-31T15:33:31 IST" duration-ms="825" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- incorretUsernamePassword -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Testcases.LoginPageTest@77c2494c]" started-at="2025-10-24T15:24:29 IST" name="afterMethod" finished-at="2025-10-24T15:24:29 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- validUsernamePassword -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.LoginPageTest@6f03482]" started-at="2025-10-31T15:33:31 IST" name="afterMethod" finished-at="2025-10-31T15:33:31 IST" duration-ms="205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validUsernamePassword status=SUCCESS method=LoginPageTest.validUsernamePassword()[pri:0, instance:testcases.LoginPageTest@6f03482] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- Testcases.LoginPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- testcases.LoginPageTest -->
+    </test> <!-- grouping test -->
+  </suite> <!-- Suite -->
 </testng-results>

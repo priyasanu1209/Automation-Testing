@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Chrome test">
+		<parameter name="browser" value="chrome">
+		</parameter>
+		<classes>
+			<class name="testcases.NewUserTest">
+			</class>
+		</classes>
+	</test>
+	<test name="edge test">
+		<parameter name="browser" value="edge">
+		</parameter>
+		<classes>
+			<class name="testcases.NewUserTest">
+			</class>
+		</classes>
+	</test>
+	<test name="firefox test">
+		<parameter name="browser" value="firefox">
+		</parameter>
+		<classes>
+			<class name="testcases.NewUserTest">
+			</class>
+		</classes>
+	</test>
+
+</suite>
